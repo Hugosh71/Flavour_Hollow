@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8268e8fb-c194-a8c3-4496-3a0eb2a112d7}</ProjectGuid>
+    <ProjectGuid>{6c99c551-467e-591c-3450-b655ec5cd47e}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
@@ -401,7 +401,7 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\fanch\OneDrive\Bureau\Flavour_Hollow\Flavour Hollow\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\fanch\OneDrive\Bureau\Flavour_Hollow\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
