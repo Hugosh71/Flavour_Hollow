@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 040abecbb0fc83b46a14d95aab84e369
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Quaaykop
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50777b77dcf8e5d4b886c07694aba99e, type: 3}
+  - {fileID: 12800000, guid: cc64bbefefca0ae4cb8d381c305241fe, type: 3}
+  - {fileID: 12800000, guid: 5143129acbe004b45a7255aa1bad1965, type: 3}
+  - {fileID: 12800000, guid: d228e9b2c4b346443bc605ce0fcef7fe, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

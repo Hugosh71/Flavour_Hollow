@@ -1,0 +1,236 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/marcp/Flavour_Hollow
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64207
+Successfully changed project path to: C:/Users/marcp/Flavour_Hollow
+C:/Users/marcp/Flavour_Hollow
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21924] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2545826834 [EditorId] 2545826834 [Version] 1048832 [Id] WindowsEditor(7,LenIdea1622) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21924] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2545826834 [EditorId] 2545826834 [Version] 1048832 [Id] WindowsEditor(7,LenIdea1622) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 208.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marcp/Flavour_Hollow/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7094 MB
+    Driver:   31.0.12044.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009123 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 190.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1333ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (966ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (600ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.039642 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marcp\Flavour_Hollow\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marcp\Flavour_Hollow\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 179.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3676ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (3138ms)
+			LoadAssemblies (1392ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (996ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (180ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3749 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.0 KB). Loaded Objects now: 4203.
+Memory consumption went from 145.1 MB to 144.9 MB.
+Total: 5.951800 ms (FindLiveObjects: 0.410300 ms CreateObjectMapping: 0.279500 ms MarkObjects: 4.989000 ms  DeleteObjects: 0.271500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1033118.417056 seconds.
+  path: Assets/TextMesh Pro/Fonts/Limone-Regular.otf
+  artifactKey: Guid(7f923e86087edd34dab728aa8a00fda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Limone-Regular.otf using Guid(7f923e86087edd34dab728aa8a00fda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a7095ed87b98e889f5cbc893ffd04b') in 0.248555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 346.894915 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop.otf
+  artifactKey: Guid(d9987134cd802694297a7dac34ee3e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop.otf using Guid(d9987134cd802694297a7dac34ee3e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964b8282a6d2e64f87d681c0b6506785') in 0.013033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.088682 seconds.
+  path: Assets/TextMesh Pro/Fonts/OFL.txt
+  artifactKey: Guid(d00f7cd64a38fa1429ba71e1c7415855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/OFL.txt using Guid(d00f7cd64a38fa1429ba71e1c7415855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2983975532396a239434059f68d514c1') in 0.043566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.429955 seconds.
+  path: Assets/TextMesh Pro/Fonts/Limone
+  artifactKey: Guid(36933712af440ca46a338e127ddd0b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Limone using Guid(36933712af440ca46a338e127ddd0b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43454aeffa3293b0483bc6f9eb16f7a4') in 0.001956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.754553 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaakcon
+  artifactKey: Guid(4c953b6c7b486e54093f72831cf9da7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaakcon using Guid(4c953b6c7b486e54093f72831cf9da7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f175034c466151faa86fa6d5449d8d') in 0.002466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.633305 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop
+  artifactKey: Guid(4c953b6c7b486e54093f72831cf9da7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop using Guid(4c953b6c7b486e54093f72831cf9da7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da45ed09fc36d6e7d2c5ed4edaceb621') in 0.001765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.706029 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop.otf
+  artifactKey: Guid(5143129acbe004b45a7255aa1bad1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop.otf using Guid(5143129acbe004b45a7255aa1bad1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd96e6f0632fa57163167bb54be7b97a') in 0.013646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.864279 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Italic.otf
+  artifactKey: Guid(50777b77dcf8e5d4b886c07694aba99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Italic.otf using Guid(50777b77dcf8e5d4b886c07694aba99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fa517089f8688416c21d0cbb0cba1d') in 0.011870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.810020 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Medium.otf
+  artifactKey: Guid(cc64bbefefca0ae4cb8d381c305241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Medium.otf using Guid(cc64bbefefca0ae4cb8d381c305241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945500e2d8c524323f313d6c6b8d461e') in 0.012485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.751116 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Medium Italic.otf
+  artifactKey: Guid(d228e9b2c4b346443bc605ce0fcef7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Medium Italic.otf using Guid(d228e9b2c4b346443bc605ce0fcef7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23aadf36c18e2641157abb8498eb2e21') in 0.015197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.077124 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Bold Italic.otf
+  artifactKey: Guid(040abecbb0fc83b46a14d95aab84e369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Bold Italic.otf using Guid(040abecbb0fc83b46a14d95aab84e369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c16abb5e8759043389992f9e6fe7a32') in 0.020644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.846628 seconds.
+  path: Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Bold.otf
+  artifactKey: Guid(690c493c8f810544b8f5567181c4dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Quaaykop/Quaaykop Bold.otf using Guid(690c493c8f810544b8f5567181c4dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2f3d672e56c88525bf45c7ba2e36a4') in 0.016181 seconds 
