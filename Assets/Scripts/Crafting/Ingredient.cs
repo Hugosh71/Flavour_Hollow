@@ -1,9 +1,9 @@
 using UnityEngine;
 
-[System.Serializable]
-public class Ingredient : MonoBehaviour
+[CreateAssetMenu(fileName = "New Ingredient", menuName = "Cooking/Ingredient")]
+public class Ingredient : ScriptableObject
 {
-    public string ingredientName;
-    public Sprite ingredientIcon;
+    public new string name;
+    public Sprite icon;
 }
 

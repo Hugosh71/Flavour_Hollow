@@ -5,47 +5,34 @@ public class CraftingManager : MonoBehaviour
 {
     public List<Recipe> recipes = new List<Recipe>();
 
-    public bool Craft(List<Ingredient> ingredients)
+    public bool Craft(Recipe recipe)
     {
-        foreach (Recipe recipe in recipes)
+        foreach (Ingredient ingredient in recipe.requiredIngredients)
         {
-            if (IngredientsMatch(recipe, ingredients))
+            if (!InventoryContains(ingredient))
             {
-                StartCoroutine(CraftWithDelay(recipe));
-                return true;
-            }
-        }
-        return false;
-    }
-
-    bool IngredientsMatch(Recipe recipe, List<Ingredient> ingredients)
-    {
-        if (recipe.ingredients.Count != ingredients.Count)
-            return false;
-
-        for (int i = 0; i < recipe.ingredients.Count; i++)
-        {
-            if (!ingredients.Contains(recipe.ingredients[i]))
-            {
+                Debug.Log("Missing ingredient: " + ingredient.name);
                 return false;
             }
         }
+
+        
+        foreach (Ingredient ingredient in recipe.requiredIngredients)
+        {
+            RemoveFromInventory(ingredient);
+        }
+
+        Debug.Log("Crafted: " + recipe.name);
         return true;
     }
 
-    System.Collections.IEnumerator CraftWithDelay(Recipe recipe)
+    bool InventoryContains(Ingredient ingredient)
     {
-        yield return new WaitForSeconds(recipe.preparationTime);
+        return true;
+    }
 
-        foreach (Ingredient ingredient in recipe.ingredients)
-        {
-            // Remove ingredients from player's inventory
-        }
-
-        // Add the crafted item to player's inventory
-        // Assuming you have an "Item" class or structure to represent crafted items
-        // Item craftedItem = recipe.result;
-        // AddToInventory(craftedItem);
+    void RemoveFromInventory(Ingredient ingredient)
+    {
+        
     }
 }
-
